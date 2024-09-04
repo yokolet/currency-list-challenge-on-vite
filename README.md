@@ -1,18 +1,21 @@
-# Vue 3 + TypeScript + Vite
+# Currency List Challenge -- on Vite
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This app gets currency info from https://api.moonpay.com/v3/currencies and makes a list of those.
 
-## Recommended IDE Setup
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## How to Use
 
-## Type Support For `.vue` Imports in TS
+1. clone or download this repo
+2. install packages\
+    `bun install` (or `yarn install`)
+3. start server\
+    `bun run dev` (or `yarn run dev`)
+4. go to http://localhost:5173/
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+## Implementation on Rails
 
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+Originally, this application was created on Ruby on Rails using Vite Ruby.
+To focus on front-end side only, this simplified version was created.
+
+Ruby on Rails version is: [https://github.com/yokolet/currency-list-challenge](https://github.com/yokolet/currency-list-challenge)
